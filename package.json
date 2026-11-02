@@ -1,0 +1,14 @@
+{
+  "name": "devops-infrastructure-monitoring-dashboard",
+  "version": "1.0.0",
+  "description": "Live Ubuntu infrastructure monitoring dashboard for a DevOps practical assignment",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node --check app.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "systeminformation": "^5.27.7"
+  }
+}
