@@ -27,3 +27,5 @@ Point a Cloudflare Tunnel to `http://localhost:8088`. Do not expose Jenkins or o
 
 ## Jenkins deployment note
 The Jenkins pipeline only invokes the deployment helper. The helper performs dependency installation, syntax validation and PM2 reload as the Ubuntu login user, so Jenkins itself does not need Node.js installed. Update the Ubuntu account/path in the helper and PM2 ecosystem file if your Linux username is not `ubuntu`.
+
+Automatic CI/CD deployment test - InfraPulse
